@@ -6,7 +6,7 @@ $xenserver_credential = New-Object -Typename System.Management.Automation.PSCred
 Connect-XenServer -Server $master -Creds $xenserver_credential -SetDefaultSession -NoWarnCertificates
 
 
-$a = 'NFS ISO library'
+$a = Read-Host "Enter the name of SR"
 $b = Get-XenSR -Name $a
 foreach ($pbd in $b.PBDs)
 

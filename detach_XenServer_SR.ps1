@@ -1,4 +1,9 @@
-﻿$master = Read-Host "Enter Pool Master name"
+﻿<#
+This script will detach Storage Repository from XenServer Farm.
+it is extremely manual process, (although it could be automated)
+you will need to enter Pool Master name, credentials to connect and name of SR. IT will fail 
+#>
+$master = Read-Host "Enter Pool Master name"
 $prompt = Get-Credential
 $xenserver_password = $prompt.Password
 $xenserver_username = $prompt.UserName

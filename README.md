@@ -9,5 +9,7 @@ only interesting thing is that it is written in powershell.
 
 07-17 Added this line on the web
 
+07-17 added this line in the shell
+
 Goran 
 

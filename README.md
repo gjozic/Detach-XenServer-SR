@@ -4,8 +4,7 @@ Script is fairly simple
 it will disconnect all PBDs and then forget SR.
 only interesting thing is that it is written in powershell.
 
-<<<<<<< HEAD
 07-16 Added Description in the beginning of the script
-=======
+
 Goran 
->>>>>>> 0831a6902ac93335d253818215cbed4290f10ae8
+
